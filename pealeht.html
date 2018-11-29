@@ -3,15 +3,18 @@
 	<head>
 		<title class="title"> Kiisport </title>
 		<meta charset="UTF-8">
+		<script src="js/nxt.js"></script>
 	</head>
 	<body>
-		<h1>
+		<h1 id="next">
 			Piljard
 		</h1>
+		<button onclick="inter()">Don't touch</button>
+		<button onclick="beck()">Don't touch, unless too late</button>
 		<div>
 			<h2>Lühikirjeldus</h2>
 
-			<p class="description">
+			<p class="description" id="trol">
 				Piljard on sportmäng, milles kiidega lüües veeretatakse kuule
 				piiretega laua külgedel ja nurkadel seisvatesse aukudesse.
 				Piljardit mängitakse mitmel viisil, eri reeglite ja varustusega.
@@ -21,7 +24,7 @@
 		</div>
 		<div>
 			<h2>Varustus</h2>
-			<p class="description">
+			<p class="description" id="trol2">
 				Varustuse hulka kuulub laud, kiid ja kuulid. Laua standardmõõtmeteks on 9x4,5 jalga
 				(standardmõõtmete imperiaalsed ühikud on jäänud piljardispordi Ameerika päritolust).
 				Kiisid on mitmeid eri tüüpi, kuid lihtsaks mänguks piisab vaid ühte tüüpi mängukiist.
@@ -38,7 +41,7 @@
 			<h2>
 				Edukad mängijad
 			</h2>
-			<p class="description">
+			<p class="description" id="trol3">
 				Maailmas on palju edukaid mängijaid, kuid ka Eestil on oma edukas nimi piljardimaailmas
 				ette näidata, kelleks on  <a href="grabe.html">Denis Grabe</a>. Teine näide edukast
 				kiisportlasest on <a href="ronnie.html">Ronnie O'Sullivan</a>.</p>
